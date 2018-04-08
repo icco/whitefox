@@ -241,6 +241,10 @@
                 "0": {
                     "key": "`",
                     "label": "`"
+                },
+                "1": {
+                    "key": "CONS:VOLUMEDOWN",
+                    "label": "VOL-"
                 }
             }
         },
@@ -254,6 +258,10 @@
                 "0": {
                     "key": "\\",
                     "label": "\\"
+                },
+                "1": {
+                    "key": "CONS:VOLUMEUP",
+                    "label": "VOL+"
                 }
             }
         },
@@ -265,8 +273,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "NEXT LAYER",
-                    "label": "NEXT-\u0192"
+                    "key": "FUNCTION1",
+                    "label": "\u01921"
                 }
             }
         },
@@ -460,8 +468,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "PREV LAYER",
-                    "label": "PREV-\u0192"
+                    "key": "DELETE",
+                    "label": "DEL"
                 }
             }
         },
@@ -819,8 +827,8 @@
                     "label": "\u2191"
                 },
                 "1": {
-                    "key": "ESC",
-                    "label": "ESC"
+                    "key": "#:ledControl( 5, 255 )",
+                    "label": "LED TOG"
                 }
             }
         },
