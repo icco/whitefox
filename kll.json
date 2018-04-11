@@ -58,7 +58,7 @@
             ],
             "args_count": 6,
             "features": "CapabilityFeature_None",
-            "index": 19,
+            "index": 20,
             "name": "Pixel_Animation_capability"
         },
         "animationIndex": {
@@ -70,7 +70,7 @@
             ],
             "args_count": 1,
             "features": "CapabilityFeature_None",
-            "index": 18,
+            "index": 19,
             "name": "Pixel_AnimationIndex_capability"
         },
         "animation_control": {
@@ -82,7 +82,7 @@
             ],
             "args_count": 1,
             "features": "CapabilityFeature_None",
-            "index": 17,
+            "index": 18,
             "name": "Pixel_AnimationControl_capability"
         },
         "consCtrlOut": {
@@ -215,8 +215,24 @@
             ],
             "args_count": 3,
             "features": "CapabilityFeature_Safe",
-            "index": 16,
+            "index": 17,
             "name": "Output_usbMouse_capability"
+        },
+        "mouseWheelOut": {
+            "args": [
+                {
+                    "name": "vertWheel",
+                    "width": 1
+                },
+                {
+                    "name": "horiWheel",
+                    "width": 1
+                }
+            ],
+            "args_count": 2,
+            "features": "CapabilityFeature_None",
+            "index": 16,
+            "name": "Output_usbMouseWheel_capability"
         },
         "noneOut": {
             "args": [],
@@ -229,7 +245,7 @@
             "args": [],
             "args_count": 0,
             "features": "CapabilityFeature_None",
-            "index": 20,
+            "index": 21,
             "name": "Pixel_Pixel_capability"
         },
         "sysCtrlOut": {
@@ -469,7 +485,7 @@
         },
         "latencyResources": {
             "name": "LatencyMeasurementCount_define",
-            "value": "8"
+            "value": "10"
         },
         "secureBootloaderEnabled": {
             "name": "SecureBootloader_define",
@@ -514,12 +530,12 @@
                 ]
             },
             ":0 S002": {
-                "kll": "S0x002 : U0x01e;",
+                "kll": "S0x002 : U0x035;",
                 "result": [
                     [
                         {
                             "type": "USBCode",
-                            "uid": 30
+                            "uid": 53
                         }
                     ]
                 ],
@@ -533,12 +549,12 @@
                 ]
             },
             ":0 S003": {
-                "kll": "S0x003 : U0x01f;",
+                "kll": "S0x003 : U0x01e;",
                 "result": [
                     [
                         {
                             "type": "USBCode",
-                            "uid": 31
+                            "uid": 30
                         }
                     ]
                 ],
@@ -552,12 +568,12 @@
                 ]
             },
             ":0 S004": {
-                "kll": "S0x004 : U0x020;",
+                "kll": "S0x004 : U0x01f;",
                 "result": [
                     [
                         {
                             "type": "USBCode",
-                            "uid": 32
+                            "uid": 31
                         }
                     ]
                 ],
@@ -571,12 +587,12 @@
                 ]
             },
             ":0 S005": {
-                "kll": "S0x005 : U0x021;",
+                "kll": "S0x005 : U0x020;",
                 "result": [
                     [
                         {
                             "type": "USBCode",
-                            "uid": 33
+                            "uid": 32
                         }
                     ]
                 ],
@@ -590,12 +606,12 @@
                 ]
             },
             ":0 S006": {
-                "kll": "S0x006 : U0x022;",
+                "kll": "S0x006 : U0x021;",
                 "result": [
                     [
                         {
                             "type": "USBCode",
-                            "uid": 34
+                            "uid": 33
                         }
                     ]
                 ],
@@ -609,12 +625,12 @@
                 ]
             },
             ":0 S007": {
-                "kll": "S0x007 : U0x023;",
+                "kll": "S0x007 : U0x022;",
                 "result": [
                     [
                         {
                             "type": "USBCode",
-                            "uid": 35
+                            "uid": 34
                         }
                     ]
                 ],
@@ -628,12 +644,12 @@
                 ]
             },
             ":0 S008": {
-                "kll": "S0x008 : U0x024;",
+                "kll": "S0x008 : U0x023;",
                 "result": [
                     [
                         {
                             "type": "USBCode",
-                            "uid": 36
+                            "uid": 35
                         }
                     ]
                 ],
@@ -647,12 +663,12 @@
                 ]
             },
             ":0 S009": {
-                "kll": "S0x009 : U0x025;",
+                "kll": "S0x009 : U0x024;",
                 "result": [
                     [
                         {
                             "type": "USBCode",
-                            "uid": 37
+                            "uid": 36
                         }
                     ]
                 ],
@@ -666,12 +682,12 @@
                 ]
             },
             ":0 S010": {
-                "kll": "S0x00a : U0x026;",
+                "kll": "S0x00a : U0x025;",
                 "result": [
                     [
                         {
                             "type": "USBCode",
-                            "uid": 38
+                            "uid": 37
                         }
                     ]
                 ],
@@ -685,12 +701,12 @@
                 ]
             },
             ":0 S011": {
-                "kll": "S0x00b : U0x027;",
+                "kll": "S0x00b : U0x026;",
                 "result": [
                     [
                         {
                             "type": "USBCode",
-                            "uid": 39
+                            "uid": 38
                         }
                     ]
                 ],
@@ -704,12 +720,12 @@
                 ]
             },
             ":0 S012": {
-                "kll": "S0x00c : U0x02d;",
+                "kll": "S0x00c : U0x027;",
                 "result": [
                     [
                         {
                             "type": "USBCode",
-                            "uid": 45
+                            "uid": 39
                         }
                     ]
                 ],
@@ -723,12 +739,12 @@
                 ]
             },
             ":0 S013": {
-                "kll": "S0x00d : U0x02e;",
+                "kll": "S0x00d : U0x02d;",
                 "result": [
                     [
                         {
                             "type": "USBCode",
-                            "uid": 46
+                            "uid": 45
                         }
                     ]
                 ],
@@ -742,12 +758,12 @@
                 ]
             },
             ":0 S014": {
-                "kll": "S0x00e : U0x035;",
+                "kll": "S0x00e : U0x02e;",
                 "result": [
                     [
                         {
                             "type": "USBCode",
-                            "uid": 53
+                            "uid": 46
                         }
                     ]
                 ],
@@ -2060,6 +2076,25 @@
                     ]
                 ]
             },
+            ":0 S031": {
+                "kll": "S0x01f : SYS0x082;",
+                "result": [
+                    [
+                        {
+                            "type": "SysCode",
+                            "uid": 130
+                        }
+                    ]
+                ],
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 31
+                        }
+                    ]
+                ]
+            },
             ":0 S032": {
                 "kll": "S0x020 : U0x039;",
                 "result": [
@@ -2079,23 +2114,32 @@
                     ]
                 ]
             },
-            ":0 S060": {
-                "kll": "S0x03c : ledControl(5,255);",
+            ":0 S046": {
+                "kll": "S0x02e : U0x04a;",
                 "result": [
                     [
                         {
-                            "args": [
-                                {
-                                    "type": "CapArgValue",
-                                    "value": 5
-                                },
-                                {
-                                    "type": "CapArgValue",
-                                    "value": 255
-                                }
-                            ],
-                            "name": "ledControl",
-                            "type": "Capability"
+                            "type": "USBCode",
+                            "uid": 74
+                        }
+                    ]
+                ],
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 46
+                        }
+                    ]
+                ]
+            },
+            ":0 S060": {
+                "kll": "S0x03c : CONS0x0e2;",
+                "result": [
+                    [
+                        {
+                            "type": "ConsCode",
+                            "uid": 226
                         }
                     ]
                 ],
@@ -2104,6 +2148,25 @@
                         {
                             "type": "ScanCode",
                             "uid": 60
+                        }
+                    ]
+                ]
+            },
+            ":0 S061": {
+                "kll": "S0x03d : U0x04d;",
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 77
+                        }
+                    ]
+                ],
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 61
                         }
                     ]
                 ]
